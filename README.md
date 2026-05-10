@@ -8,7 +8,7 @@ Currently building **[Bygild](https://bygild.com)** — a one-person web studio 
 ## What I am working on
 
 - **Bygild** — full-stack PHP / vanilla JS / SQLite. Public site, admin PWA, client portal, Electron desktop app, FTPES auto-deploy via GitHub Actions. Custom outreach pipeline (subscriber segmentation, PECR-compliant drip, reply detection, weekly digest cron).
-- **Placement applications** — Sep–Nov 2026, ten target organisations (Home Office, Accenture, KPMG, IBM, NHS Digital, BT, Barclays, HSBC, Sky, Deloitte).
+- **Placement applications** — Sep–Nov 2026 cycle. Targeting IT Project Coordinator / PMO Analyst / Business Analyst placements across tech, consulting, public sector, and scale-ups (Home Office, IBM, Microsoft, Accenture, KPMG, NHS Digital, BT, Sky, GDS, BBC).
 - **Google Project Management Certificate** — Coursera, in progress.
 
 ## Stack
