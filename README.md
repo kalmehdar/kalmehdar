@@ -1,25 +1,36 @@
 # Khalid Mohamed
 
-I build verification and evidence systems for regulated UK services, the kind of software that has to hold up when something goes wrong.
+Co-founder & CTO of KeyProof. I study IT Management for Business at the University of West London and go on placement in 2027/28, in IT project management and delivery.
 
-I'm 19, based in London, reading for a BSc in IT Management for Business at the University of West London and heading into a 2027 placement year in cyber security and AI governance. Alongside the degree I run Bygild and build products under it.
+## KeyProof
 
-## What I build
+[KeyProof](https://keyproof.co.uk) gives independent UK car hire firms one link per hire. The renter's photo ID is matched to a live selfie through Stripe Identity, they hand over a DVLA share code so the operator can run the check on gov.uk, they sign the operator's agreement, and they photograph the car. KeyProof keeps the evidence. The operator makes every call.
 
-**Bygild** (bygild.com) is my studio: digital products for small UK ventures, compliant by default. The website is the visible part; the work I care about is underneath it. UK GDPR processor agreements, PECR consent records, data retention that runs on a schedule instead of living in a policy document, and an AI acceptable-use policy mapped to the EU AI Act, NIST AI RMF and ISO 42001.
+Private beta open since November 2026. Public launch planned for January 2027.
 
-**KeyProof** (keyproof.co.uk, KeyProof Ltd) is a verification product for independent UK car hire firms; Bygild is the build partner behind it. From one link a renter verifies their ID against a live selfie, passes a DVLA licence check, e-signs the operator's own agreement, and photographs the car's condition. It captures the evidence; the operator still makes every call. Designed data-protection-first: a DPIA before the flows touched real data, results stored rather than documents. Built with Next.js, TypeScript, Neon Postgres and Stripe.
+My side is product and delivery. I set the scope, write the rules and direct the build, with Claude Code doing the typing:
 
-## Where this is going
+- Every change goes through a pull request to staging and gets checked there before a separate release takes it to main. CI is the only path to production.
+- DPIAs written before any real data went near the product, and hash-sealed by the product itself.
+- A suite of 6,000+ automated tests runs before every push.
+- Cyber Essentials certified, November 2026.
 
-Cyber security, AI governance, technology risk. I care less about shipping fast than about building things that are defensible: sensitive data handled properly, decisions documented, a clean record when it actually matters. That thread runs through everything here.
+## Outside the product
 
-## Stack
+A homelab on a second-hand HP mini PC: Proxmox, 16 containers behind Tailscale, monitoring and alerting, and encrypted off-site backups with the restore tested end to end. I built it to understand the infrastructure I'm responsible for.
 
-TypeScript and Next.js, Node, PHP, Postgres on Neon, Vercel. Comfortable across the stack, most at home on the data-protection and governance side of it.
+## Public repos
+
+- [claude-kit](https://github.com/kalmehdar/claude-kit): Claude Code skills, agents and setup I share
+- [claude-3d-printing](https://github.com/kalmehdar/claude-3d-printing): designing 3D prints with Claude Code
+- [prelaunch-qa](https://github.com/kalmehdar/prelaunch-qa): a 30-item pre-launch check run against any live site
+- [cv-pdfkit](https://github.com/kalmehdar/cv-pdfkit): a one-page A4 CV generator
+
+## Next
+
+Working towards AZ-900, targeting December 2026, then PRINCE2 Foundation.
 
 ## Elsewhere
 
-- Studio: [bygild.com](https://bygild.com)
-- Product: [keyproof.co.uk](https://keyproof.co.uk)
-- LinkedIn: [Khalid Mohamed](https://www.linkedin.com/in/khalid-mohamed-78227122a)
+- [keyproof.co.uk](https://keyproof.co.uk)
+- [LinkedIn](https://www.linkedin.com/in/khalid-mohamed-78227122a)
