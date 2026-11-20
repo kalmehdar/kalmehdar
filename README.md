@@ -4,7 +4,7 @@ Co-founder & CTO of KeyProof. I study IT Management for Business at the Universi
 
 ## KeyProof
 
-[KeyProof](https://keyproof.co.uk) gives independent UK car hire firms one link per hire. The renter's photo ID is matched to a live selfie through Stripe Identity, they hand over a DVLA share code so the operator can run the check on gov.uk, they sign the operator's agreement, and they photograph the car. KeyProof keeps the evidence. The operator makes every call.
+[KeyProof](https://keyproof.co.uk) gives independent UK car hire firms one link per hire. Every hire, checked and on record: the hirer's photo ID is matched to a live selfie through Stripe Identity, they give the firm a DVLA check code, which the firm checks on gov.uk, they sign the firm's own agreement, and handover and return photos land on one sealed record. KeyProof keeps the evidence. The firm makes every call.
 
 Private beta open since November 2026. Public launch planned for January 2027.
 
@@ -21,6 +21,8 @@ A homelab on a second-hand HP mini PC: Proxmox, 16 containers behind Tailscale, 
 
 ## Public repos
 
+- [keyproof-delivery](https://github.com/kalmehdar/keyproof-delivery): how KeyProof ships, a delivery case study (release process, a real incident review, decision log)
+- [delivery-templates](https://github.com/kalmehdar/delivery-templates): release checklist, change request, post-incident review, RAID log and decision log, with worked examples
 - [claude-kit](https://github.com/kalmehdar/claude-kit): Claude Code skills, agents and setup I share
 - [claude-3d-printing](https://github.com/kalmehdar/claude-3d-printing): designing 3D prints with Claude Code
 - [prelaunch-qa](https://github.com/kalmehdar/prelaunch-qa): a 30-item pre-launch check run against any live site
